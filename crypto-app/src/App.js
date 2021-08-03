@@ -46,7 +46,18 @@ function App() {
         </ul>
       </nav>
       <div className="coin-search">
-        <h1 className="coin-text">Search the Currency</h1>
+        <h1 className="coin-text">Welcome to the world of CryptoCurrency</h1>
+      </div>
+      <div className="intro-crypto">
+        <p className="defination">
+          A cryptocurrency is a digital or virtual currency that is secured by
+          cryptography, which makes it nearly impossible to counterfeit or
+          double-spend. Many cryptocurrencies are decentralized networks based
+          on blockchain technology—a distributed ledger enforced by a disparate
+          network of computers. A defining feature of cryptocurrencies is that
+          they are generally not issued by any central authority, rendering them
+          theoretically immune to government interference or manipulation.
+        </p>
       </div>
       {coins
         .filter((coin) =>

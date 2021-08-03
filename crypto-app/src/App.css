@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Manrope", sans-serif;
-  /* background-color: rgb(37, 36, 36); */
+
   color: white;
 }
 
 .coin-app {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+
   color: white;
-  background-color: rgb(37, 36, 36);
+  background-color: rgb(36, 59, 68);
 }
 
 .coin-search {
@@ -26,8 +27,10 @@
 }
 
 .coin-text {
-  margin-bottom: 32px;
+  margin-top: 8px;
+  margin-bottom: 5px;
   text-align: center;
+  color: rgb(188, 102, 238);
 }
 .coin-input {
   padding-left: 16px;
@@ -48,23 +51,35 @@
   color: white;
 }
 
+/* Intro Section */
+.intro-crypto {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.defination {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: rgb(100, 132, 236);
+  font-family: "Arima Madurai", cursive;
+}
+
 /* Navbar */
 .navbar-container {
   margin-top: 0;
-  border: 2px solid white;
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(255, 255, 255);
 }
 .navbar-container ul {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
   align-items: center;
 }
 .navbar-container ul li {
   list-style: none;
 }
 .navbar-container ul li input {
-  margin-left: 80%;
+  margin-left: 65%;
+  outline: none;
   padding: 10px;
   width: 300px;
   font-size: 1rem;
@@ -83,9 +98,10 @@
 }
 .navbar-container ul li img {
   height: 80px;
-  width: 100px;
+  width: 110px;
 }
 .navbar-container ul li .tagline {
   color: rgb(196, 14, 212);
   margin-left: 30px;
+  font-size: 1.5rem;
 }

@@ -23,8 +23,8 @@
   width: 150px;
 }
 .coin img {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   margin-right: 10px;
 }
 
@@ -55,4 +55,11 @@
 }
 .green {
   color: rgb(60, 243, 60);
+}
+
+.rupee {
+  padding-right: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(211, 202, 191);
 }
